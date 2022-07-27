@@ -14,7 +14,7 @@ generate health check report to support issue tracking by writing ansible playbo
 * Click Install Software
 7. Wait for the installation to complete. Once you're prompted to click Close in the bottom-right corner of the window, you've successfully installed VirtualBox on your Mac
 
-## Install Ansible 
+## Install Ansible on VirtualBox
 Install pip if not present 
 * sudo yum install epel-release
 * sudo yum install python-pip
@@ -28,5 +28,5 @@ Upgrade Ansible using pip
 Install Specific Version of Ansible using pip
 * sudo pip install ansible==2.4
 
-
-
+Check Version Ansible 
+* ansible --version
