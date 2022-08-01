@@ -30,3 +30,12 @@ Install Specific Version of Ansible using pip
 
 Check Version Ansible 
 * ansible --version
+
+## Example Playbook
+```
+-
+ name: "CIS CentOS 7"
+ hosts: all
+ tasks:
+   - name:
+```
