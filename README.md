@@ -31,15 +31,10 @@ Install Specific Version of Ansible using pip
 Check Version Ansible 
 * ansible --version
 
-## Running a Command
+## Running Command
 ```
 ansible-playbook name.yml
 ```
-
-
-
-
-
 
 ## Example Playbook
 ```
