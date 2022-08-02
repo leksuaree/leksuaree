@@ -4,7 +4,7 @@ generate health check report to support issue tracking by writing ansible playbo
 ## Install VirtualBox
 1. Open the VirtualBox website https://www.virtualbox.org/  
 2. Click Download VirtualBox It's a blue button in the middle of the page. Doing so will open the downloads page
-3. Click OS X hosts  **download onto your Mac
+3. Click OS X hosts
 4. Open the "VirtualBox" DMG file double-click the file to open
 5. Double-click the "VirtualBox.pkg" icon
 6. Navigate through the installation prompts
@@ -30,6 +30,16 @@ Install Specific Version of Ansible using pip
 
 Check Version Ansible 
 * ansible --version
+
+## Running a Command
+```
+ansible-playbook name.yml
+```
+
+
+
+
+
 
 ## Example Playbook
 ```
